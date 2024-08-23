@@ -58,7 +58,7 @@ const navigate = useNavigate()
             {
               [...Array(product.inStock).keys()].map((idx)=>{
                 return(
-                  <option value={idx + 1}>{idx + 1}</option>
+                  <option key={idx + 1} value={idx + 1}>{idx + 1}</option>
                 )
               })
             }

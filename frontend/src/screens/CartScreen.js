@@ -26,7 +26,7 @@ const CartScreen = () => {
 
         {
           cartData.length !== 0 ? cartData.map((datum, index)=>{
-            return   <CartItem key={index} {...datum} handleRemoveItem={handleRemoveItem} handleQtyChange={handleQtyChange}/>
+            return   <CartItem key={datum.product} {...datum} handleRemoveItem={handleRemoveItem} handleQtyChange={handleQtyChange}/>
           })
           :
           <Link to={'/'}>Go to Home Page</Link>
