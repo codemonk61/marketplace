@@ -1,0 +1,163 @@
+.product {
+    width: 280px;
+    padding: 1rem;
+    margin: 8px auto;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.product > img {
+    height: 170px;
+    border-radius: 8px;
+}
+
+.product__info > p {
+    margin-bottom: 8px;
+}
+
+.info__name{
+    font-size: 1rem;
+    overflow: hidden;
+}
+
+.info__description{
+    font-size: 0.8rem;
+   
+}
+
+.info__price{
+ font-weight: bold;
+}
+
+.info__button {
+    display: block; 
+    width: 100%;
+    background-color: #171717;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 1rem;
+}
+
+@media (max-width: 1232px){
+    .product {
+        width: 320px;
+    }
+
+}
+
+@media (max-width: 1115px){
+    .product {
+        width: 320px;
+    }
+
+}
+
+@media (max-width: 1029px){
+    .product {
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 952px){
+    .product {
+        width: 420px;
+    }
+
+}
+
+@media (max-width: 860px){
+    .product {
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 833px){
+    .product {
+        width: 380px;
+    }
+
+}
+
+@media (max-width: 783px){
+    .product {
+        width: 360px;
+    }
+
+}
+
+@media (max-width: 749px){
+    .product {
+        width: 340px;
+    }
+
+}
+
+@media (max-width: 701px){
+    .product {
+        width: 320px;
+    }
+
+}
+
+@media (max-width: 686px){
+    .product {
+        width: 320px;
+    }
+
+}
+
+@media (max-width: 668px){
+    .product {
+        width: 480px;
+    }
+
+}
+
+@media (max-width: 506px){
+    .product {
+        width: 460px;
+    }
+
+}
+
+@media (max-width: 482px){
+    .product {
+        width: 420px;
+    }
+
+}
+
+@media (max-width: 448px){
+    .product {
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 428px){
+    .product {
+        width: 350px;
+    }
+
+}
+
+@media (max-width: 370px){
+    .product {
+        width: 320px;
+    }
+
+}
+
+@media (max-width: 342px){
+    .product {
+        width: 280px;
+    }
+
+}
